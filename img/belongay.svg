@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178" height="75" viewBox="0 0 178 75">
+  <defs>
+    <filter id="belongay" x="0" y="11" width="178" height="64" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Símbolo_1_3" data-name="Símbolo 1 – 3" transform="translate(5862 -838)">
+    <g transform="matrix(1, 0, 0, 1, -5862, 838)" filter="url(#belongay)">
+      <text id="belongay-2" data-name="belongay" transform="translate(9 54)" fill="#8f8f8f" font-size="37" font-family="Quicksand-Regular, Quicksand"><tspan x="0" y="0">belon</tspan><tspan y="0" fill="#ffc107">gay</tspan></text>
+    </g>
+    <g id="Agrupar_3" data-name="Agrupar 3" transform="translate(52 -47)">
+      <g id="send" transform="translate(-5845 885)">
+        <g id="Agrupar_2" data-name="Agrupar 2" transform="translate(0 0)">
+          <g id="Agrupar_1" data-name="Agrupar 1">
+            <path id="Caminho_1" data-name="Caminho 1" d="M28.083,112.258a.6.6,0,0,0,.395-.149,5.827,5.827,0,0,1,1.854-1.1.6.6,0,0,0-.411-1.123,7.019,7.019,0,0,0-2.233,1.328.6.6,0,0,0,.4,1.046Z" transform="translate(-25.295 -109.847)" fill="#ffc107"/>
+            <path id="Caminho_2" data-name="Caminho 2" d="M204.943,172.987a1.507,1.507,0,0,0-1.522-1.006h0l-23.689,1.262a1.346,1.346,0,0,0-.817,2.355l5.3,4.664a.526.526,0,0,1,.146.213v0a.526.526,0,0,1,.025.257l-1.065,6.982a1.345,1.345,0,0,0,2.14,1.279l1.622-1.22.465,1.277A1.914,1.914,0,0,0,189,190.287a1.967,1.967,0,0,0,.373.036,1.911,1.911,0,0,0,1.43-.643l12.923-14.419.7-.525A1.505,1.505,0,0,0,204.943,172.987Zm-15.031,15.9a.734.734,0,0,1-1.236-.239l-.589-1.619,10.712-8.058Zm-2.9-2.547,0,0-2.262,1.7a.151.151,0,0,1-.239-.143l1.065-6.982a1.742,1.742,0,0,0,.019-.25l3.928-1.43a.6.6,0,0,0-.409-1.123l-3.928,1.43a1.739,1.739,0,0,0-.175-.179l-5.3-4.664a.151.151,0,0,1,.091-.263l22.747-1.212-10.714,3.9a.6.6,0,1,0,.409,1.123l10.714-3.9Z" transform="translate(-164.234 -167.027)" fill="#ffc107"/>
+            <path id="Caminho_3" data-name="Caminho 3" d="M16.45,162.545l-3.488,1.277a7.178,7.178,0,0,1-5.525-.23,5.263,5.263,0,0,1-1.846-1.419l.513.238a4.771,4.771,0,1,0-2.32-6.335,6.436,6.436,0,0,0-.565,3.433A5.858,5.858,0,0,1,1.74,152.62a.6.6,0,1,0-1.084-.5,7.046,7.046,0,0,0,3.013,9.148,6.43,6.43,0,0,0,3.264,3.411,8.367,8.367,0,0,0,6.439.268l3.488-1.277a.6.6,0,0,0-.411-1.122ZM4.628,160.409a5.243,5.243,0,0,1,.24-3.83,3.575,3.575,0,0,1,6.517,2.941,3.575,3.575,0,0,1-4.778,1.806Z" transform="translate(0.002 -148.43)" fill="#ffc107"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

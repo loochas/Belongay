@@ -1,0 +1,350 @@
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Belongay</title>
+      </head>
+      <body>
+    <!-- Modal -->
+
+     <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Entre na sua conta</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+          <form>
+              <div class="form-group">
+                <label for="loginEmail">Email</label>
+                <input type="email" class="form-control" id="loginEmail">
+                
+              </div>
+              <div class="form-group">
+                <label for="loginSenha">Senha</label>
+                <input type="password" class="form-control" id="loginSenha" placeholder="Password">
+              </div>
+              
+              <button type="submit" class="btn btn-warning">Entrar na conta</button>
+              <small  class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui</a></small>
+        </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>  
+
+    <!-- Fecha Modal -->
+
+         <nav class=" navtext navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow ">
+              <a  class="navbar-brand"href="index.html"
+              >
+              <img src="img/belongay.svg" alt="Belongay"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                  <ul class="navbar-nav ml-auto text-white">
+
+                     <li class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a href="local.html" class="dropdown-item">Greater Fort Lauderdale</a>
+                              <a href="local.html" class="dropdown-item">México</a>
+                              <a href="local.html" class="dropdown-item">Grã-Bretanha</a>
+                          </div>
+                      </li>
+
+                      <li class="nav-item">
+                          <a href="planos.html" class="nav-link">Planos</a>
+                      </li>
+
+                    <li class="nav-item">
+                          <a href="contato.html" class="nav-link">Contato</a>
+                      </li>
+                    <li class="nav-item">
+                          <a href="#" class="nav-link" data-toggle="modal" data-target="#modalLogin">Login</a>
+                      </li>
+                       <li class="nav-item">
+                          <a href="inscricao.html" class="nav-item btn btn-outline-warning ml-md-2">Inscreva-se</a>
+                      </li>
+
+                  </ul>
+              </div>
+       </nav>
+
+        <section class="container-fluid">
+        <div class="row bg-light text-muted">
+           <div class="col-lg-7 p-0">
+
+                  <div id="carouselCidades" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselCidades" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselCidades" data-slide-to="1"></li>
+                        <li data-target="#carouselCidades" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/greaterfl.png" class="d-block w-100" alt="Greater Fort Lauderdale">
+                          <div class="carousel-caption">
+                              <h3 class="display-4">Greater Fort Lauderdale</h3>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/cidadedomexico.png" class="d-block w-100" alt="Mexico">
+                            <div class="carousel-caption">
+                              <h3 class="display-4">México</h3>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/gbretanha.png" class="d-block w-100" alt="Grã-Bretanha">
+                            <div class="carousel-caption">
+                              <h3 class="display-4">Grã-Bretanha</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselCidades" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselCidades" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                      </a>
+                </div>
+
+           </div>
+
+           <div class="col-lg-5 p-4 align-self-center">
+
+                   <h1 class="display-4">Tenha experiências incríveis gay-friendly pelo mundo!</h1>
+                   <p class="lead">Com a Belongay sua diversão é garantida.</p>
+                   <form action="">
+                <div class="input-group mb-3 input-group-lg">
+                  <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                <button class="btn btn-warning text-white" type="button" id="button-addon2">Inscreva-se</button>
+                  </div>
+                </div>
+                   </form>
+               </div>
+
+        </div>
+        </section>
+
+        <section class=" py-5 bg-warning text-center">
+
+           <div class="container">
+
+              <div class="my-5">
+               <span class="h6 d-block text-secondary ">TUDO PARA VOCÊ SE JOGAR!</span>
+               <h2 class="display-4 text-white ">Veja um pequeno spoiler das vantagens</h2>
+               </div>
+
+
+
+               <div class="row">
+                   <div class="col-xl-4 col-md-6">
+                    <div class="yellowh card border-secondary mb-3 border-0 box-shadow" style="max-width: 18rem;">
+                      <div class="card-header border-warning"><img class="card-img-top icone" src="img/icones/experiencias.svg" alt="" ></div>
+                      <div class="card-body text-secondary ">
+                        <h5 class="card-title">Experiências incríveis</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div></div></div>
+                      
+
+                      <div class="col-xl-4 col-md-6">
+                        <div class="yellowh card border-secondary mb-3 border-0" style="max-width: 18rem;">
+                          <div class="card-header border-warning"><img class="card-img-top icone" src="img/icones/festas.svg" alt="" ></div>
+                          <div class="card-body text-secondary">
+                            <h5 class="card-title">Festas exclusivas</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div></div></div>
+
+                          <div class="col-xl-4 col-md-6">
+                            <div class="yellowh card border-secondary mb-3 border-0" style="max-width: 18rem;">
+                              <div class="card-header border-warning"><img class="card-img-top icone" src="img/icones/hospedagem.svg" alt="" ></div>
+                              <div class="card-body text-secondary">
+                                <h5 class="card-title">Hospedagem 4 estrelas</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              </div></div></div>
+
+                              <div class="col-xl-4 col-md-6">
+                                <div class="yellowh card border-secondary mb-3 border-0" style="max-width: 18rem;">
+                                  <div class="card-header border-warning"><img class="card-img-top icone" src="img/icones/ingressos.svg" alt="" ></div>
+                                  <div class="card-body text-secondary">
+                                    <h5 class="card-title">Ingressos para eventos</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  </div></div></div>
+                                  
+                                  <div class="col-xl-4 col-md-6">
+                                    <div class="yellowh card border-secondary mb-3 border-0" style="max-width: 18rem;">
+                                      <div class="card-header border-warning"><img class="card-img-top icone" src="img/icones/passagens.svg" alt="" ></div>
+                                      <div class="card-body text-secondary">
+                                        <h5 class="card-title">Passagens aéreas</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div></div></div>
+
+                                      <div class="col-xl-4 col-md-6">
+                                        <div class="yellowh card border-secondary mb-3 border-0" style="max-width: 18rem;">
+                                          <div class="card-header border-warning"><img class="card-img-top icone" src="img/icones/automoveis.svg" alt="" ></div>
+                                          <div class="card-body text-secondary">
+                                            <h5 class="card-title">Automóveis disponíveis</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          </div></div></div>
+
+                      
+                   
+           </div>
+           <a href="plano.html" class="btn btn-info btn-lg mt-4">
+            Quero ter essa experiência incrível
+        </a>
+        </section>
+
+        <section id="home-quote" class="p-md-5">
+            <blockquote class="blockquote text-center text-white p-md-5 p-3">
+                <p class="display-4"><em>
+                "Depois de ver o mundo, você nunca se sentirá completamente em casa novamente. Parte do seu coração sempre estará em outro lugar."
+                </em></p>
+                <footer class="blockquote-footer text-white">
+                    Lucas V Bombs
+                </footer>
+            </blockquote>
+        </section>
+
+        <section class="row bg-light">
+          <div class="container">
+
+               <div class="my-5 text-center">
+
+                   <span class="h6 d-block text-warning ">DÚVIDAS? NUNCA MAIS</span>
+                   <h2 class="display-4 text-secondary ">FAQ Belongay</h2>
+               </div>
+
+               <div class="row justify-content-center text-white">
+                   <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
+
+                      <div class="pergunta py-2 ">
+                          <a class="lead text-dark font-weight-bold" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1">Quais são os pacotes?</a>
+                          <div class="collapse show" role="tabpanel" id="pergunta1">
+                          <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sagittis leo, in efficitur ligula. Etiam volutpat luctus sem eu blandit. Phasellus imperdiet, ex id ultricies luctus, leo risus aliquet lacus.
+                          </p>
+                          </div>
+
+                   </div>
+
+                   <div class="dropdown-divider border-warning"></div>
+
+
+                   <div class="pergunta py-2">
+                          <a class="lead text-dark font-weight-bold" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta2" aria-expanded="true" aria-controls="pergunta2">Tem planos para grupo de amigos?</a>
+                          <div class="collapse show" role="tabpanel" id="pergunta2">
+                          <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sagittis leo, in efficitur ligula. Etiam volutpat luctus sem eu blandit. Phasellus imperdiet, ex id ultricies luctus, leo risus aliquet lacus.
+                          </p>
+                          </div>
+
+                   </div>
+
+                   <div class="dropdown-divider border-warning"></div>
+
+                    <div class="pergunta py-2">
+                          <a class="lead text-dark font-weight-bold" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta3" aria-expanded="true" aria-controls="pergunta2">Qual o principal destino?</a>
+                          <div class="collapse show" role="tabpanel" id="pergunta3">
+                          <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sagittis leo, in efficitur ligula. Etiam volutpat luctus sem eu blandit. Phasellus imperdiet, ex id ultricies luctus, leo risus aliquet lacus.
+                          </p>
+                          </div>
+
+                   </div>
+
+                   <div class="dropdown-divider border-warning"></div>
+
+                    <div class="pergunta py-2">
+                          <a class="lead text-dark font-weight-bold" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta4" aria-expanded="true" aria-controls="pergunta2">Quais são minhas garantias?</a>
+                          <div class="collapse show" role="tabpanel" id="pergunta4">
+                          <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sagittis leo, in efficitur ligula. Etiam volutpat luctus sem eu blandit. Phasellus imperdiet, ex id ultricies luctus, leo risus aliquet lacus.
+                          </p>
+                          </div>
+                   </div>
+                   <div class="dropdown-divider border-warning"></div>
+               </div>
+            </div>
+               <div class="text-center my-4">
+                   <p class="small m-1 text-white">FALE CONOSCO PARA MAIS DÚVIDAS</p>
+                   <a href="contato.html" class="btn btn-warning btn-lg text-white">Entre em contato</a>
+               </div>
+              </div>
+        </section>
+
+        <footer class="bg-secondary text-white ">
+            <div class="container py-4">
+                <div class="row">
+                   <div class="col-md-3 col-6">
+                       <h4 class="h6 text-white">PÁGINAS</h4>
+                       <ul class="list-unstyled">
+                           <li><a class="text-warning" href="plano.html">Planos</a></li>
+                           <li><a class="text-warning" href="contato.html">Contato</a></li>
+                           <li><a class="text-warning" href="inscricao.html">Inscreva-se</a></li>
+                       </ul>
+                   </div>
+
+                   <div class="col-md-3 col-6">
+                       <h4 class="h6 text-white">LOCAIS</h4>
+                       <ul class="list-unstyled">
+                           <li><a class="text-warning" href="local.html">Greater Fort Lauderdale </a></li>
+                           <li><a class="text-warning" href="local.html">México</a></li>
+                           <li><a class="text-warning" href="local.html">Grã-Bretanha</a></li>
+                       </ul>
+                   </div>
+
+                   <div class="col-md-4 col-6">
+                       <h4 class="h6 text-white">DADOS DE CONTATO</h4>
+                       <ul class="list-unstyled text-light">
+                           <li>contato@belongay.com.br</li>
+                           <li>21 99999-9999</li>
+                           <li>De Seg. à Sex. das 8h às 18h</li>
+                       </ul>
+                   </div>
+
+                    <div class="col-md-2 col-6">
+                       <h4 class="h6 text-white">REDES SOCIAIS</h4>
+                       <ul class="list-unstyled">
+                           <li><a href="#" class="btn btn-outline-warning mb-2 btn-block btn-sm"style="max-width:140px">Facebook</a></li>
+                           <li><a href="#"class="btn btn-outline-warning mb-2 btn-block btn-sm"style="max-width:140px">Instagram</a></li>
+                           <li><a href="#"class="btn btn-outline-warning mb-2 btn-block btn-sm" style="max-width:140px">Twitter</a></li>
+                       </ul>
+                   </div>
+
+                </div>
+            </div>
+
+            <div class="bg-dark text-center text-secondary py-3">
+                <p class="mb-0">Belongay - 2019. Alguns direitos reservados</p>
+            </div>
+        </footer>
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script type="text/jscript" src="js/app.js"></script>
+      </body>
+    </html>
